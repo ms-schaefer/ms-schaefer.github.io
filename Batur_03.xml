@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<panoramaStudioViewer version="3.0">
+    <image projection="cylindrical" multilevel="true" baseindex="1">
+      <bitmap width="11312" height="3718" tilesize="930" src="Batur_03_tiles/Batur_03_t_1_%0y_%0x.jpg" />
+      <bitmap width="5656" height="1859" tilesize="930" src="Batur_03_tiles/Batur_03_t_2_%0y_%0x.jpg" />
+      <bitmap width="2828" height="930" tilesize="930" src="Batur_03_tiles/Batur_03_t_3_%0y_%0x.jpg" />
+      <preview src="Batur_03_tiles/Batur_03_preview.jpg" />
+      <fallback projection="cylindrical"> 
+        <small stripe_width="208" stripe_height="804" overlap="2"> 
+          <face num="0" src="Batur_03_tiles/Batur_03-301_s_f0.jpg"/>
+          <face num="1" src="Batur_03_tiles/Batur_03-301_s_f1.jpg"/>
+          <face num="2" src="Batur_03_tiles/Batur_03-301_s_f2.jpg"/>
+          <face num="3" src="Batur_03_tiles/Batur_03-301_s_f3.jpg"/>
+          <face num="4" src="Batur_03_tiles/Batur_03-301_s_f4.jpg"/>
+          <face num="5" src="Batur_03_tiles/Batur_03-301_s_f5.jpg"/>
+          <face num="6" src="Batur_03_tiles/Batur_03-301_s_f6.jpg"/>
+          <face num="7" src="Batur_03_tiles/Batur_03-301_s_f7.jpg"/>
+          <face num="8" src="Batur_03_tiles/Batur_03-301_s_f8.jpg"/>
+          <face num="9" src="Batur_03_tiles/Batur_03-301_s_f9.jpg"/>
+          <face num="10" src="Batur_03_tiles/Batur_03-301_s_f10.jpg"/>
+          <face num="11" src="Batur_03_tiles/Batur_03-301_s_f11.jpg"/>
+        </small> 
+        <medium stripe_width="431" stripe_height="1685" overlap="2"> 
+          <face num="0" src="Batur_03_tiles/Batur_03-301_m_f0.jpg"/>
+          <face num="1" src="Batur_03_tiles/Batur_03-301_m_f1.jpg"/>
+          <face num="2" src="Batur_03_tiles/Batur_03-301_m_f2.jpg"/>
+          <face num="3" src="Batur_03_tiles/Batur_03-301_m_f3.jpg"/>
+          <face num="4" src="Batur_03_tiles/Batur_03-301_m_f4.jpg"/>
+          <face num="5" src="Batur_03_tiles/Batur_03-301_m_f5.jpg"/>
+          <face num="6" src="Batur_03_tiles/Batur_03-301_m_f6.jpg"/>
+          <face num="7" src="Batur_03_tiles/Batur_03-301_m_f7.jpg"/>
+          <face num="8" src="Batur_03_tiles/Batur_03-301_m_f8.jpg"/>
+          <face num="9" src="Batur_03_tiles/Batur_03-301_m_f9.jpg"/>
+          <face num="10" src="Batur_03_tiles/Batur_03-301_m_f10.jpg"/>
+          <face num="11" src="Batur_03_tiles/Batur_03-301_m_f11.jpg"/>
+        </medium> 
+        <preview src="Batur_03_tiles/Batur_03-301_fb_preview.jpg" />
+      </fallback> 
+    </image>
+    <camera minpan="0.00" maxpan="116.93" mintilt="-18.54" maxtilt="18.54" maxzoom="1.5"     />
+    <view pan="58.46" tilt="0.00" hfov="55.62" />
+        <autoplay status="off" pan="2.00" tilt="0.00" zoom="1.00" restart="5.00" />
+    <toolbar visible="true" layout="0" design="12" 
+      fullscreenbutton="true" playbutton="true" 
+      buttonwidth="24" buttonheight="20" dpidependent="true" touchzoomonly="true"
+      align="leftbottom"  xoff="4" yoff="-4" 
+    />
+    <progress type="progressBar" text="Laden: %d%" style=" color:#ffffff; font-family: Arial,Helvetica,sans-serif; font-size: 12px; font-weight: bold; text-align:center; " filters="glow, #000000 ,1,2.0,2.0,3,1 ; glow,#000000,0.5,5.0,5.0,1,1"/>    <strings lang="de" />
+</panoramaStudioViewer>
